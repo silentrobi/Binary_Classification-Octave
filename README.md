@@ -17,7 +17,7 @@ The file has `mapFeature(X1, X2)` method. This method maps the two input feature
 # predict.m -- *Script File*
 **predict.m** file is used to get predicted **y_hat** values. The file has `predict(theta, X)` method, that is used to find all ***y_hat** for binary logistic regression. The return values of this method are **p** `(m x 1)` which is **y_hat** . The method looks like in octave `function p = predict(theta, X)`, where **X** is `m x (n+1)` matrix and **theta** is `(n+1) x 1` matrix.
 # ex2.m -- *Script File*
-This is the file that should be run for binary logistic regression classifier.This file loads `ex2data1.txt`, gets binary logistic regression model. 
+This is the file runs  binary logistic regression classifier (simple version).This file loads `ex2data1.txt`, gets binary logistic regression model. 
 # ex2_reg.m -- *Script File*
 This is the file that should be run for binary logistic regression classifier.This file loads `ex2data2.txt`, gets binary logistic regression model. It uses **mapFeature()**, **costFunctionReg()** methods. This implementation prevents overfitting problem.
 # ex2.pdf 
