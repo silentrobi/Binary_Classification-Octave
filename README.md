@@ -10,6 +10,9 @@ The project has following classes and script files.
 # plotData.m -- *Script File*
 **plotData.m** file is used to plot training data. As **X** has two features, it can be represented in 2D graph. It has the method `function plotData(X, y)`, where **X** is `m x n` matrix and **y** is `m x 1` matrix.
 
+# sigmoid.m -- *Script File*
+**sigmoid.m** file has `sigmoid()` method, that is used to compute sigmoid of input vector/matrix.
+
 # plotDecisionBoundary.m -- *Script File*
 **plotDecisionBoundary.m** file is used to plot decision boundary. As **X** has two features, it can be represented in 2D graph. It has the method `function plotDecisionBoundary(theta, X, y)`, where **X** is `m x (n+1)` matrix and **y** is `m x 1` matrix, and **theta** is `(n+1) x 1` matrix. The decision boundary is linear for `ex2data1.txt`, whereas the decision boundary for `ex2data2.txt` is non-linear. **Note:** The decision boundary is non-linear because the hypothesis is polynomial. Polynomial features are added by **mapFeature(X1, X2)** method.
 # mapFeature.m -- *Script File*
